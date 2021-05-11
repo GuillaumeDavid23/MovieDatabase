@@ -1,0 +1,36 @@
+body,html,section{
+    height: 100%;
+}
+
+body{
+    background-color: #141414;
+    color: #e5e5e5;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+
+}
+
+h1{
+    background-image: url(../img/ciné.jpg);
+    color:tomato;
+    text-shadow: 8px 8px 5px black;
+}
